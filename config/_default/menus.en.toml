@@ -1,0 +1,47 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Blog"
+url = "/blog"
+weight = 2
+
+[[main]]
+name = "Our Services"
+url = "/elements"
+weight = 3
+
+#[[main]]
+#weight = 4
+#name = "Pages"
+
+[[main]]
+name = "About"
+url = "/about"
+weight = 5
+
+[[main]]
+name = "Contact"
+url = "/contact"
+weight = 6
+
+# Pages dropdown
+#[[main]]
+#parent = "Pages"
+#name = "Authors"
+#url = "/authors"
+
+#[[main]]
+#parent = "Pages"
+#name = "Categories"
+#url = "/categories"
+
+#[[main]]
+#parent = "Pages"
+#name = "404 Page"
+#url = "/404"
