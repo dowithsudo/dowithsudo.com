@@ -2,50 +2,49 @@
 # Banner
 banner:
   title: "Reliable IT Solutions for Secure and Stable Systems"
-  content: "We delivers reliable IT services, system administration, and infrastructure support to help your business run secure, stable, and scalable environments."
+  content: "We help businesses run smoothly with secure infrastructure, reliable systems, and scalable IT solutions tailored to your needs.."
   image: "/images/banner.webp"
   button:
     enable: true
     label: "Our Services"
-    link: "https://github.com/zeon-studio/hugoplate"
+    link: "#"
 
 # Features
 features:
   - title: "Secure, Reliable, and Scalable IT Services"
-    image: "/images/service-1.webp"
-    content: "We delivers reliable, secure, and scalable IT solutions to help your business operate smoothly, reduce downtime, and stay protected"
+    image: "/images/our-services.webp"
+    content: "We deliver reliable, secure, and scalable IT solutions to help your business operate smoothly, reduce downtime, and stay protected."
     bulletpoints:
-      - "IT consulting, server management, and sysadmin support"
-      - "Secure and optimized network & infrastructure"
-      - "Website and web server deployment & optimization"
-      - "Security, firewall, monitoring, and backup solutions"
-      - "SCCTV and scalable IT solutions for growing businesses"
-      - "On demand IT support services"
+      - "Secure & optimized IT infrastructure"
+      - "Reliable systems with minimal downtime"
+      - "Scalable solutions for growing businesses"
+      - "On-demand IT support you can trust"
     button:
       enable: false
       label: "Get Started Now"
       link: "#"
 
-  - title: "Discover the Key Features Of Hugo"
-    image: "/images/service-2.png"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+  - title: "Our Core Services"
+    image: "/images/core-services.webp"
+    content: "End to end IT services to keep your systems secure, stable, and scalable."
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+     - "IT Infrastructure & Networking – Secure and reliable IT foundations."
+     - "Server & Cloud Management – Scalable servers with backup and monitoring."
+     - "IT Support & Security – Responsive support with strong system protection."
+
     button:
       enable: true
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/hugoplate"
+      label: "Get Free Consultation"
+      link: "#https://github.com/zeon-studio/hugoplate"
 
-  - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
-    image: "/images/service-3.png"
-    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
+  - title: "Why Choose Us"
+    image: "/images/choose-us.webp"
+    content: "A reliable IT partner committed to keeping your systems secure, stable, and ready to grow."
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "Security-first approach to protect your infrastructure, systems, and data."
+      - "Reliable and proven IT solutions designed to minimize downtime."
+      - "Scalable systems that grow seamlessly with your business needs."
+      - "Responsive and dependable IT support you can trust."
     button:
       enable: false
       label: ""
