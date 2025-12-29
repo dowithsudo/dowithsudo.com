@@ -1,1 +1,146 @@
-/* Add your own custom styles here */
+/* =====================================
+   TOC hierarchical numbering (STABLE)
+   ===================================== */
+
+/* reset list style */
+.toc ol {
+  list-style: none;
+  padding-left: 1.25rem;
+}
+
+/* ---------- LEVEL 1 (##) ---------- */
+.toc > nav > ol {
+  counter-reset: section;
+}
+
+.toc > nav > ol > li {
+  counter-increment: section;
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 0.4rem;
+}
+
+.toc > nav > ol > li::before {
+  content: counter(section) ". ";
+  position: absolute;
+  left: 0;
+  font-weight: 600;
+  opacity: 0.85;
+}
+
+/* ---------- LEVEL 2 (###) ---------- */
+.toc > nav > ol > li > ol {
+  counter-reset: subsection;
+  margin-top: 0.25rem;
+}
+
+.toc > nav > ol > li > ol > li {
+  counter-increment: subsection;
+  position: relative;
+  padding-left: 2.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.toc > nav > ol > li > ol > li::before {
+  content: counter(section) "." counter(subsection) ". ";
+  position: absolute;
+  left: 0;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+/* ================================
+   PRINT STYLES – CV A4
+   ================================ */
+@media print {
+
+  /* Page size */
+  @page {
+    size: A4;
+    margin: 20mm;
+  }
+
+  /* Reset background & shadow */
+  * {
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  body {
+    color: #000 !important;
+    font-size: 11pt;
+    line-height: 1.5;
+  }
+
+  /* Hide non-essential UI */
+  header,
+  nav,
+  footer,
+  .toc,
+  .search,
+  .breadcrumb,
+  .theme-switcher,
+  .tw-size-indicator {
+    display: none !important;
+  }
+
+  /* Force single column */
+  .container,
+  .row,
+  [class*="col-"] {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Content width */
+  .content {
+    width: 100% !important;
+  }
+
+  /* Headings */
+  h1 {
+    font-size: 22pt;
+    margin-bottom: 6mm;
+  }
+
+  h2 {
+    font-size: 14pt;
+    margin-top: 8mm;
+    margin-bottom: 3mm;
+    border-bottom: 1px solid #000;
+    padding-bottom: 2mm;
+  }
+
+  h3 {
+    font-size: 12pt;
+    margin-top: 5mm;
+  }
+
+  /* Paragraph & list */
+  p,
+  li {
+    font-size: 11pt;
+  }
+
+  ul {
+    padding-left: 18px;
+  }
+
+  /* Avatar print control */
+  img {
+    max-width: 90px;
+    height: auto;
+  }
+
+  /* Avoid breaking sections */
+  h2, h3, p, ul {
+    page-break-inside: avoid;
+  }
+
+  /* Links as text */
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+
+}
