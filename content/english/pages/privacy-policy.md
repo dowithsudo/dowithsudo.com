@@ -1,33 +1,49 @@
 ---
-title: "Privacy"
+title: "Privacy Policy"
 # meta title
-meta_title: ""
+meta_title: "Privacy Policy"
 # meta description
-description: "This is meta description"
+description: "This privacy policy explains how this personal website handles visitor information."
 # save as draft
 draft: false
 ---
 
-#### Responsibility of Contributors
+#### Website Scope
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
+This website is a personal website/blog used to share information, professional experience, and personal documentation. All content is managed individually and does not involve external contributors or active participation from visitors.
 
-pretium, aliquam sit. Praesent elementum magna amet, tincidunt eros, nibh in leo. Malesuada purus, lacus, at aliquam suspendisse tempus. Quis tempus amet, velit nascetur sollicitudin. At sollicitudin eget amet in. Eu velit nascetur sollicitudin erhdfvssfvrgss eget viverra nec elementum. Lacus, facilisis tristique lectus in.
+This website does not provide comment features, user accounts, or interactive services.
 
-#### Gathering of Personal Information
+---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
+#### Information Collection
 
-#### Protection of Personal- Information
+This website **does not actively collect personal information** from visitors.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus.
+Like most websites, the hosting server may automatically log non-personal technical information such as IP addresses, browser types, operating systems, and accessed pages. This information is used solely for technical, security, and performance monitoring purposes.
 
-Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat
+If contact forms or other communication methods are added in the future, any information provided will be used only for communication purposes and will not be shared with third parties.
+
+---
+
+#### Information Protection
+
+Since this website does not collect or store personal data from visitors, there is no dedicated database containing personal information.
+
+Nevertheless, reasonable technical and organizational measures are applied at the server and system level to prevent unauthorized access or misuse.
+
+---
+
+#### Cookies & Third-Party Services
+
+This website **does not use cookies for personal tracking**.
+
+However, third-party services such as hosting providers or analytics services (for example, Google Analytics) may use cookies or similar technologies to collect anonymous usage statistics. This data is used solely to understand website performance and does not identify individual users.
+
+---
 
 #### Privacy Policy Changes
 
-1. Sll the Themefisher items are designed to be with the latest , We check all
-2. comments that threaten or harm the reputation of any person or organization
-3. personal information including, but limited to, email addresses, telephone numbers
-4. Any Update come in The technology Customer will get automatic Notification.
+1. This privacy policy may be updated from time to time to reflect changes in content, technology, or third-party services.
+2. Any updates will be published directly on this page.
+3. By continuing to use this website, visitors are considered to have understood and agreed to the current privacy policy.

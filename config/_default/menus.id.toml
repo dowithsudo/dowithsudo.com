@@ -1,0 +1,44 @@
+############# Indonesian navigation ##############
+
+# main menu
+[[main]]
+name = "Beranda"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Blog"
+url = "/blog"
+weight = 2
+
+[[main]]
+name = "Layanan"
+url = "/layanan"
+weight = 3
+
+[[main]]
+name = "Tentang Kami"
+url = "/tentang"
+weight = 5
+
+[[main]]
+name = "Kontak"
+url = "/contact"
+weight = 6
+
+
+# footer menu
+[[footer]]
+name = "Tentang"
+url = "/about"
+weight = 1
+
+[[footer]]
+name = "Layanan"
+url = "/layanan"
+weight = 2
+
+[[footer]]
+name = "Kebijakan Privasi"
+url = "/kebijakan-privasi"
+weight = 3
