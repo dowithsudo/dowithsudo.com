@@ -114,6 +114,7 @@
       "dark:text-darkmode-primary",
       "dark:text-darkmode-text-dark",
       "dark:text-darkmode-text-light",
+      "dark:text-gray-100",
       "dark:text-text-muted-dark",
       "dark:text-white",
       "dark:to-darkmode-light",

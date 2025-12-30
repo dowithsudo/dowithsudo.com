@@ -10,10 +10,7 @@ draft: false
 toc: true
 ---
 
-**Email:** [kamandanu.wijaya@gmail.com](mailto:kamandanu.wijaya@gmail.com)  
-**Telepon:** +62 812 2233 129 (WhatsApp tersedia)
 
----
 
 ## Profil Profesional
 
@@ -121,6 +118,11 @@ Diploma Sekolah Menengah — Teknik Mesin Otomotif
 - Network Engineering  
 - IT Support berfokus Infrastruktur  
 - Tim global & lintas fungsi  
+
+---
+
+**Email:** [kamandanu.wijaya@gmail.com](mailto:kamandanu.wijaya@gmail.com)  
+**Telepon:** +62 812 2233 129 (WhatsApp tersedia)
 
 ---
 

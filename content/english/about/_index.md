@@ -11,10 +11,6 @@ toc: true
 
 
 
-**Email:** [kamandanu.wijaya@gmail.com](mailto:kamandanu.wijaya@gmail.com)  
-**Phone:** +62 812 2233 129 (WhatsApp available)
-
----
 
 ## Professional Profile
 
@@ -122,6 +118,11 @@ High School Diploma — Teknik Mesin Otomotif
 - Network Engineering  
 - Infrastructure-focused IT Support  
 - Global & cross-functional teams  
+
+---
+
+**Email:** [kamandanu.wijaya@gmail.com](mailto:kamandanu.wijaya@gmail.com)  
+**Phone:** +62 812 2233 129 (WhatsApp available)
 
 ---
 

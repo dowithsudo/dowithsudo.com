@@ -1,56 +1,48 @@
-{{ define "main" }}
-{{ partial "page-header" . }}
+{{ define "main" }} {{ partial "page-header" . }}
 
 <section class="section-sm">
   <div class="container">
     <div class="row">
-
       <!-- LEFT CONTENT -->
       <div class="lg:col-8 md:col-12">
-
         <!-- PROFILE HEADER -->
         <div class="flex items-center gap-6 mb-10">
+          <img
+            src="{{ .Params.image | relURL }}"
+            alt="{{ .Title }}"
+            class="w-28 h-28 rounded-full object-cover border border-border dark:border-border-dark"
+          />
 
-  <img
-    src="{{ .Params.image | relURL }}"
-    alt="{{ .Title }}"
-    class="w-28 h-28 rounded-full object-cover border border-border dark:border-border-dark" />
+          <div>
+            <h1 class="text-4xl font-bold mb-1 text-text dark:text-white">
+              Kamandanu Tresna Wijaya
+            </h1>
 
-  <div>
-    <h1 class="text-4xl font-bold mb-1 text-text dark:!text-text-dark">
-  Kamandanu Tresna Wijaya
-</h1>
+            <p class="text-lg mb-1 text-text-muted dark:text-text-muted-dark">
+              IT Infrastructure & Network Administrator
+            </p>
 
-
-    <p class="text-lg mb-1 text-text-muted dark:text-text-muted-dark">
-      IT Infrastructure & Network Administrator
-    </p>
-
-    <p class="text-sm text-text-muted dark:text-text-muted-dark">
-      Indonesia · Open to work & project
-    </p>
-  </div>
-
-</div>
-
-
-        <!-- MARKDOWN CONTENT (WAJIB LANGSUNG) -->
-        <div class="content">
-          {{ .Content }}
+            <p class="text-sm text-text-muted dark:text-text-muted-dark">
+              Indonesia · Open to work & project
+            </p>
+          </div>
         </div>
 
+        <!-- MARKDOWN CONTENT (WAJIB LANGSUNG) -->
+        <div class="content">{{ .Content }}</div>
       </div>
 
       <!-- TOC -->
       {{ if .Params.toc }}
       <div class="lg:col-4 md:col-12">
-        <aside class="toc sticky top-24 p-4 rounded-lg bg-theme-light dark:bg-theme-dark">
+        <aside
+          class="toc sticky top-24 p-4 rounded-lg bg-theme-light dark:bg-theme-dark"
+        >
           <h3 class="mb-4 font-semibold">Table of Contents</h3>
           {{ .TableOfContents }}
         </aside>
       </div>
       {{ end }}
-
     </div>
   </div>
 </section>

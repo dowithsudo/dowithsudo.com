@@ -237,11 +237,12 @@
 
 .layanan-item {
   display: grid;
-  grid-template-columns: 160px 1fr; /* lebih rapat */
-  gap: 2.5rem;
-  padding: 3.5rem 0;
+  grid-template-columns: 200px 1fr; /* dari 160px → 200px */
+  gap: 3rem;                        /* lebih lega */
+  padding: 3.8rem 0;
   border-bottom: 1px solid #eee;
 }
+
 
 .layanan-item:last-child {
   border-bottom: none;
@@ -253,24 +254,28 @@
 }
 
 .layanan-index {
-  font-size: 0.85rem;
+  font-size: 1.05rem;        /* LEBIH BESAR */
   font-weight: 600;
-  letter-spacing: 0.15em;
-  color: #bbb;
+  letter-spacing: 0.18em;
+  color: #aaa;
   display: block;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.9rem;     /* JARAK KE JUDUL */
 }
 
+
 .layanan-item-left h3 {
-  font-size: 1.05rem;
-  line-height: 1.4;
-  margin: 0;
+  font-size: 1.15rem;   /* sedikit lebih besar */
+  line-height: 1.45;
+  margin: 0 0 0.6rem;   /* JARAK KE DESKRIPSI */
 }
+
 
 /* RIGHT SIDE */
 .layanan-item-right {
   max-width: 640px;
+  padding-left: 0.5rem;
 }
+
 
 .layanan-desc {
   margin: 0 0 0.9rem;
@@ -364,3 +369,24 @@
   color: #d0d0d0;
 }
 
+
+
+@media (max-width: 768px) {
+
+  .layanan-item {
+    padding: 2.5rem 1.25rem; /* ruang kiri-kanan */
+  }
+
+  .layanan-item-left h3 {
+    font-size: 1.1rem;
+  }
+
+  .layanan-item-right {
+    max-width: 100%;
+  }
+
+  .layanan-desc {
+    margin-bottom: 0.8rem;
+  }
+
+}
